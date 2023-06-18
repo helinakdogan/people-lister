@@ -6,4 +6,12 @@ const AddUser = (props) => {
         <label htmlFor='username'>Username</label>
         <input id='username' type='text'></input>
    
-        <label htmlFo
+        <label htmlFor='username'>Age (Years)</label>
+        <input id='age' type='number'></input>
+   
+        <button type='submit'>Add user</button>
+   </form>
+  )
+}
+
+export default AddUser
