@@ -8,7 +8,7 @@ const AddUser = (props) => {
   };
 
   return (
-
+    <Card>
     <form onSubmit={addUserHandler}>
         <label htmlFor='username'>Username</label>
         <input id='username' type='text'></input>
@@ -18,6 +18,7 @@ const AddUser = (props) => {
    
         <button type='submit'>Add user</button>
    </form>
+   </Card>
   )
 }
 
